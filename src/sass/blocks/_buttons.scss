@@ -9,6 +9,11 @@
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: 500;
+    transition: 0.5s all;
+    &:hover {
+        background-color: #EA0000;
+        box-shadow: 0 0 30px #FFFFFF;
+    } 
     &_main{
         margin-top: 67px;
         width: 302px;
@@ -24,6 +29,10 @@
         width: 133px;
         height: 42px;
         font-size: 14px;
+        &:hover {
+            background-color: #EA0000;
+            box-shadow: 0 0 20px #FF0000;
+        } 
     }
 
 }
