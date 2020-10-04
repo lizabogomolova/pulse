@@ -16,6 +16,22 @@
         margin-right: 30px;
         margin-left: 30px;
     }
+    .modal{
+        width: 350px;
+        padding: 30px 35px 30px 35px;
+        &__subtitle{
+            font-size: 17px;
+        }
+        &__descr{
+            font-size: 13px;
+        }
+        .feed-form{
+            width: 280px;
+        }
+        &__close{
+            font-size: 38px;
+        }
+    }
 }
 
 @media (max-width: 992px){
@@ -274,6 +290,31 @@
                 }  
             }
         }
+    }
+    .modal{
+        width: 300px;
+        padding: 25px 30px 25px 30px;
+        min-height: 370px;
+        &__close{
+            cursor: none;
+        }
+        &__subtitle{
+            font-size: 15px;
+        }
+        &__descr{
+            font-size: 11px;
+        }
+        .feed-form{
+            width: 240px;
+            input{
+                height: 48px;
+                padding: 0 16px;
+            }
+            .button_submit{
+                height: 50px;
+                font-size: 15px;
+            }
+        }
     }   
 }
 @media (max-width: 576px){
@@ -458,6 +499,35 @@
             margin-bottom: 30px;
             line-height: 17px;
             font-size: 17px;
+        }
+    }
+    .modal{
+        width: 250px;
+        padding: 15px 20px 15px 22px;
+        min-height: 320px;
+        &__close{
+            right: -27px;
+            font-size: 30px;
+            line-height: 18px;
+        }
+        &__subtitle{
+            font-size: 13px;
+        }
+        &__descr{
+            font-size: 9px;
+        }
+        .feed-form{
+            width: 200px;
+            margin-top: 20px;
+            margin-right: 0;
+            input{
+                height: 40px;
+                font-size: 13px;
+            }
+            .button_submit{
+                height: 45px;
+                font-size: 13px;
+            }
         }
     }
 
