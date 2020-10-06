@@ -3,6 +3,11 @@
         width: 100%;
         margin-right: 10px;
     }
+    .consultation{
+        label.error{
+            font-size: 17px;
+        }
+    }
     .catalog{
         &__content{
             min-width: 950px;
@@ -30,6 +35,9 @@
         }
         &__close{
             font-size: 38px;
+        }
+        label.error{
+            font-size: 17px;
         }
     }
 }
@@ -211,6 +219,9 @@
                 font-size: 15px;
             }
         }
+        label.error{
+            font-size: 15px;
+        }
     }
     .carousel{
         padding-bottom: 81px;
@@ -315,6 +326,9 @@
                 font-size: 15px;
             }
         }
+        label.error{
+            font-size: 15px;
+        }
     }   
 }
 @media (max-width: 576px){
@@ -407,6 +421,9 @@
                 font-size: 13px;
                 height: 45px;
             }
+        }
+        label.error{
+            font-size: 13px;
         }
     }
     .carousel{
@@ -528,6 +545,9 @@
                 height: 45px;
                 font-size: 13px;
             }
+        }
+        label.error{
+            font-size: 13px;
         }
     }
 
