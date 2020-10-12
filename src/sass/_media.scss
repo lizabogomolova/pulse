@@ -109,6 +109,9 @@
         height: 600px;
         &__map{
             height: 600px;
+            iframe{
+                height: 600px;  
+            }
         }
         &__info{
             width: 400px;
@@ -273,6 +276,9 @@
         height: 500px;
         &__map{
             height: 500px;
+            iframe{
+                height: 500px;  
+            }
         }
         &__info{
             width: 350px;
@@ -328,6 +334,10 @@
         }
         label.error{
             font-size: 15px;
+        }
+        &_mini{
+            padding: 30px 35px 30px 35px;
+            min-height: 130px;
         }
     }   
 }
@@ -549,6 +559,16 @@
         label.error{
             font-size: 13px;
         }
+        &_mini{
+            padding: 20px 25px 20px 25px;
+            min-height: 100px;
+        }
+    }
+    .pageup{
+        bottom: 20px;
+        right: 20px;
+        width: 35px;
+        height: 35px;
     }
 
 }

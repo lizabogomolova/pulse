@@ -99,9 +99,9 @@ $(document).ready(function(){
 
       };
 
+      valideForms('#consultation-form');
       valideForms('#consultation form');
       valideForms('#order form');
-      valideForms('#consultation-form');
 
       $('input[name=phone]').mask("+7 (999) 999-99-99");
 
@@ -117,6 +117,24 @@ $(document).ready(function(){
           $('.overlay, #thanks').fadeIn('slow');
           $('form').trigger('reset');
         });
+        return false;
+      });
+
+
+
+      /* скрол и стрелочка вверх */
+
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 1000) {
+          $('.pageup').fadeIn();
+        } else{
+          $('.pageup').fadeOut();
+        }
+      });
+
+      $("a[href='#up']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
       });
 
